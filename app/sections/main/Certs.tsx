@@ -5,15 +5,19 @@ export default function Certs() {
   return (
     <section className="flex flex-col">
       <div className="bg-[#f86f5e] p-5 flex flex-col gap-3 text-zinc-900 text-center">
-        <div className="flex flex-col font-roboto text-xl font-bold">
+        <div className="flex flex-col font-roboto text-xl md:text-2xl 2xl:text-3xl font-bold">
           <h2>CALL TODAY FOR A ESTIMATE!</h2>
           <p>(718) 880-4080</p>
         </div>
-        <p>Same-Day Appointments Available</p>
+        <p className="text-lg md:text-xl 2xl:text-2xl">
+          Same-Day Appointments Available
+        </p>
       </div>
-      <div className="h-[200px] md:h-[250px] bg-zinc-200 flex flex-col gap-3  justify-around items-center text-black font-roboto p-5">
-        <h2 className="text-xl font-semibold">OUR CERTIFICATIONS</h2>
-        <div className="flex gap-1 md:gap-3 items-center justify-center">
+      <div className="h-[200px] md:h-[350px] bg-zinc-200 flex flex-col gap-3 justify-evenly items-center text-black font-roboto p-5 md:p-10">
+        <h2 className="text-xl md:text-2xl 2xl:text-3xl font-semibold">
+          CERTIFICATIONS
+        </h2>
+        <div className="flex gap-1 md:gap-7 items-center justify-center">
           <Image
             src="/logos/GAF.png"
             alt="GAF_Certification"
@@ -37,13 +41,17 @@ export default function Certs() {
           />
         </div>
       </div>
-      <div className="flex flex-col items-center justify-center">
-        <div className="text-black font-roboto p-5 text-center">
-          <h2 className="text-xl font-semibold">CLIENT TESTIMONIALS</h2>
-          <p className="text-md">Let people speak for us!</p>
+      <div className="flex flex-col items-center">
+        <div className="text-black font-roboto p-5 md:pt-10 text-center">
+          <h2 className="text-xl md:text-2xl 2xl:text-3xl font-semibold">
+            CLIENT TESTIMONIALS
+          </h2>
+          <p className="text-md md:text-xl 2xl:text-2xl">
+            Let people speak for us!
+          </p>
         </div>
-        <div className="overflow-hidden">
-          <div className="p-5 max-w-[1000px] -my-16">
+        <div className="overflow-hidden mt-2 mb-10">
+          <div className="p-5 max-w-[1000px] 2xl:max-w-[1300px] -my-16">
             <script
               src="https://static.elfsight.com/platform/platform.js"
               async
