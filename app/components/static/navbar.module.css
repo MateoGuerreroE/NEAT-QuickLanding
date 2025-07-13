@@ -1,0 +1,32 @@
+.listcontainer {
+  list-style: none;
+  flex-shrink: 0;
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: var(--gap);
+
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+  }
+}
+
+.listwrapper {
+  --gap: 30px;
+  display: flex;
+  overflow: hidden;
+  user-select: none;
+  gap: var(--gap);
+}
+
+@media (min-width: 768px) {
+  .listcontainer {
+    animation: none;
+    transform: none; /* Optional: reset any transform */
+  }
+}
