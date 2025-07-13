@@ -62,7 +62,7 @@ export default function NavBar() {
             src="/icons/facebook.svg"
             alt="facebook_logo"
             width={20}
-            className="hover:cursor-pointer h-5 w-5 md:h-8 md:w-8"
+            className="hover:cursor-pointer h-6 w-6 md:h-8 md:w-8"
             height={20}
             onClick={() =>
               window.open(
@@ -75,7 +75,7 @@ export default function NavBar() {
             src="/icons/instagram.svg"
             alt="insta_logo"
             width={17}
-            className="hover:cursor-pointer h-4 w-4 md:h-7 md:w-7"
+            className="hover:cursor-pointer h-5 w-5 md:h-7 md:w-7"
             height={17}
             onClick={() =>
               window.open(
