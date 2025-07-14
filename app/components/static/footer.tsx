@@ -17,8 +17,7 @@ export default function Footer() {
         <div className="font-roboto flex flex-col gap-3">
           <h4 className="font-semibold md:text-xl 2xl:text-2xl">SCHEDULE</h4>
           <div className="flex flex-col gap-3 text-[11px] md:text-base xl:text-lg">
-            <p>Monday to Friday</p>
-            <p>9:00 AM to 5:00PM NYC Time</p>
+            <p>Open 24/7</p>
           </div>
         </div>
         <div className="font-roboto flex flex-col gap-3">
