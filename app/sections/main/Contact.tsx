@@ -56,7 +56,7 @@ export default function Contact() {
             </h5>
           </div>
           <p className="text-sm md:text-base 2xl:text-lg">
-            sales@neatservicescorp.com
+            neatservicescorp@gmail.com
           </p>
         </div>
       </div>
