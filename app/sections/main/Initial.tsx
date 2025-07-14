@@ -3,7 +3,10 @@ import React from "react";
 
 export default function Initial() {
   return (
-    <section className="h-[520px] md:h-[550px] 2xl:h-[700px] bg-black/10 relative flex items-center justify-center">
+    <section
+      id="home"
+      className="h-[520px] md:h-[550px] 2xl:h-[700px] bg-black/10 relative flex items-center justify-center"
+    >
       <div className="absolute z-10 bg-black/50 w-full h-full top-0"></div>
       <video
         className="h-full w-full z-0 object-cover bg-black"

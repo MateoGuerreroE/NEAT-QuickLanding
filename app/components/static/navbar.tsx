@@ -6,7 +6,6 @@ import styles from "./navbar.module.css";
 export type NavBarSelection =
   | "home"
   | "about"
-  | "services"
   | "contact"
   | "gallery"
   | "reviews";
@@ -21,14 +20,15 @@ export default function NavBar() {
   function NavBarLink(props: { name: string; item: NavBarSelection }) {
     const { name, item } = props;
     return (
-      <p
-        className={`${
-          selection === item ? "text-[#f86f5e]" : "text-white"
-        } font-semibold text-md xl:text-lg hover:cursor-pointer hover:text-[#f86f5e] transition-colors duration-300`}
-        onClick={() => setSelection(item)}
-      >
-        {name}
-      </p>
+      <a onClick={() => setSelection(item)} href={`#${item}`}>
+        <p
+          className={`${
+            selection === item ? "text-[#f86f5e]" : "text-white"
+          } font-semibold text-md xl:text-lg hover:cursor-pointer hover:text-[#f86f5e] transition-colors duration-300`}
+        >
+          {name}
+        </p>
+      </a>
     );
   }
 
@@ -48,8 +48,6 @@ export default function NavBar() {
           <NavBarLink name="Home" item="home" />
           <NavBarDivider />
           <NavBarLink name="About Us" item="about" />
-          <NavBarDivider />
-          <NavBarLink name="Services" item="services" />
           <NavBarDivider />
           <NavBarLink name="Gallery" item="gallery" />
           <NavBarDivider />

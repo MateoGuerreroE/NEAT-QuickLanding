@@ -2,7 +2,10 @@ import Image from "next/image";
 
 export default function Contact() {
   return (
-    <section className="flex flex-col w-full items-center my-2 md:my-10 text-black gap-2 md:gap-8">
+    <section
+      id="contact"
+      className="flex flex-col w-full items-center my-2 md:my-10 text-black gap-2 md:gap-8"
+    >
       <h3 className="font-roboto font-semibold text-xl 2xl:text-3xl">
         CONTACT
       </h3>

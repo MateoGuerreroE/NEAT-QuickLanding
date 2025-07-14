@@ -20,32 +20,43 @@ export default function Gallery() {
     {
       location: "Brooklyn",
       title: "SIDING",
-      image: "/REMOVE/IMG_4819.jpg",
+      image: "https://mg-general-1.s3.us-east-2.amazonaws.com/IMG_4819.JPG",
     },
     {
       location: "Queens",
       title: "SHINGLE ROOFING",
-      image: "/REMOVE/2025-04-18-16-02-20-543.png",
+      image:
+        "https://mg-general-1.s3.us-east-2.amazonaws.com/2025-04-18-16-02-20-543.PNG",
     },
     {
       location: "Yonkers",
       title: "FLAT ROOFING",
-      image: "/REMOVE/IMG_4820.jpg",
+      image:
+        "https://mg-general-1.s3.us-east-2.amazonaws.com/dji_fly_20230801_151100_306_1690917108127_photo_optimized.jpg",
     },
     {
       location: "Brooklyn",
       title: "SIDING",
-      image: "/REMOVE/IMG_1094.png",
+      image: "https://mg-general-1.s3.us-east-2.amazonaws.com/IMG_1094.png",
     },
 
     {
       location: "Long Island",
       title: "SHINGLE ROOFING",
-      image: "/REMOVE/2025-04-02-17-50-51-956.png",
+      image:
+        "https://mg-general-1.s3.us-east-2.amazonaws.com/2025-04-02-17-50-51-956.PNG",
+    },
+    {
+      location: "Bronx",
+      title: "FLAT ROOFING",
+      image: "https://mg-general-1.s3.us-east-2.amazonaws.com/IMG_7647.png",
     },
   ];
   return (
-    <section className="p-5 md:py-7 flex flex-col items-center gap-10 text-black">
+    <section
+      id="gallery"
+      className="p-5 md:py-7 flex flex-col items-center gap-10 text-black"
+    >
       <div className="flex flex-col gap-1 items-center font-roboto">
         <h2 className="font-semibold text-xl 2xl:text-3xl">
           CHECK OUR PROJECTS GALLERY

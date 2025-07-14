@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Certs() {
   return (
-    <section className="flex flex-col">
+    <section id="about" className="flex flex-col">
       <div className="bg-[#f86f5e] p-5 flex flex-col gap-3 text-zinc-900 text-center">
         <div className="flex flex-col font-roboto text-xl md:text-2xl 2xl:text-3xl font-bold">
           <h2>CALL TODAY FOR A ESTIMATE!</h2>
@@ -41,7 +41,7 @@ export default function Certs() {
           />
         </div>
       </div>
-      <div className="flex flex-col items-center">
+      <div className="flex flex-col items-center" id="reviews">
         <div className="text-black font-roboto p-5 md:pt-10 text-center">
           <h2 className="text-xl md:text-2xl 2xl:text-3xl font-semibold">
             CLIENT TESTIMONIALS
