@@ -82,14 +82,14 @@ export default function NavBar() {
               )
             }
           />
-          <Image
+          {/* <Image
             src="/icons/tiktok.svg"
             alt="tiktok_logo"
             width={17}
             className="hover:cursor-pointer h-5 w-5 md:h-7 md:w-7"
             height={17}
             onClick={() => window.open("", "_blank")}
-          />
+          /> */}
         </div>
       </div>
       <div className={`w-full bg-[#f86f5e] ${styles.listwrapper}`}>
